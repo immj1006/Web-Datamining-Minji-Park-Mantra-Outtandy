@@ -1,0 +1,11 @@
+rdflib
+requests
+trafilatura
+spacy
+pandas
+numpy
+matplotlib
+scikit-learn
+torch
+pykeen
+owlready2

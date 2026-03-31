@@ -1,0 +1,1301 @@
+@prefix kb: <http://scientists-kb.org/entity/> .
+@prefix kbc: <http://scientists-kb.org/class/> .
+@prefix kbp: <http://scientists-kb.org/property/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+kb:Alan_Alda a kbc:Person ;
+    rdfs:label "Alan Alda"@en ;
+    kbp:commission kb:Peter_Parnell .
+
+kb:Albert a kbc:Person ;
+    rdfs:label "Albert"@en ;
+    kbp:continue kb:Aarau .
+
+kb:Albert_Einstein a kbc:Person,
+        kbc:Scientist ;
+    rdfs:label "Albert Einstein"@en ;
+    kbp:associate kb:the_Institute_for_Advanced_Study ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q937 .
+
+kb:Apple_TV a kbc:Organization ;
+    rdfs:label "Apple TV+"@en ;
+    kbp:order kb:Jane .
+
+kb:Asa_Gray a kbc:Person ;
+    rdfs:label "Asa Gray"@en ;
+    kbp:discuss kb:Darwin .
+
+kb:Bacher a kbc:Person ;
+    rdfs:label "Bacher"@en ;
+    kbp:lure kb:the_California_Institute_of_Technology .
+
+kb:Beagle a kbc:Person ;
+    rdfs:label "Beagle"@en ;
+    kbp:anchor kb:Falmouth .
+
+kb:Birkbeck_University_of_London_School_of_Crystallography a kbc:Organization ;
+    rdfs:label "Birkbeck, University of London School of Crystallography"@en ;
+    kbp:open kb:the_Rosalind_Franklin_Laboratory .
+
+kb:Blaise a kbc:Person ;
+    rdfs:label "Blaise"@en ;
+    kbp:plead kb:Jacqueline .
+
+kb:Blaise_Pascal a kbc:Scientist ;
+    rdfs:label "Blaise Pascal"@en ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q1290 .
+
+kb:Bohm a kbc:Person ;
+    rdfs:label "Bohm"@en ;
+    kbp:convince kb:Feynman .
+
+kb:Bohr a kbc:Person ;
+    rdfs:label "Bohr"@en ;
+    kbp:warm kb:Feynman .
+
+kb:Center_for_Primate_Studies a kbc:Organization ;
+    rdfs:label "Center for Primate Studies"@en ;
+    kbp:create kb:the_University_of_Minnesota .
+
+kb:Charles a kbc:Person ;
+    rdfs:label "Charles"@en ;
+    kbp:educated kb:Unitarian_Church .
+
+kb:Charles_Darwin a kbc:Scientist ;
+    rdfs:label "Charles Darwin"@en ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q1035 .
+
+kb:Charles_Perrault a kbc:Person ;
+    rdfs:label "Charles Perrault"@en ;
+    kbp:published kb:Letters .
+
+kb:Crick a kbc:Person ;
+    rdfs:label "Crick"@en ;
+    kbp:affiliatedWith kb:Cambridge ;
+    kbp:invite kb:Wilkins .
+
+kb:Duillier a kbc:Person ;
+    rdfs:label "Duillier"@en ;
+    kbp:accuse kb:Leibniz .
+
+kb:Einstein a kbc:Person ;
+    rdfs:label "Einstein"@en ;
+    kbp:apply kb:the_Eidgenössische_Polytechnische_Schule ;
+    kbp:published kb:The_Investigation_of_the_State_of_Aether_in_Magnetic_Fields .
+
+kb:Erasmus_Darwin a kbc:Person ;
+    rdfs:label "Erasmus Darwin"@en ;
+    kbp:praise kb:Zoonomia .
+
+kb:FBI a kbc:Organization ;
+    rdfs:label "FBI"@en ;
+    kbp:question kb:Bethe .
+
+kb:Finch_University_of_Health_Sciences a kbc:Organization ;
+    rdfs:label "Finch University of Health Sciences"@en ;
+    kbp:change kb:the_Rosalind_Franklin_University_of_Medicine_and_Science .
+
+kb:Galileo_Galilei a kbc:Scientist ;
+    rdfs:label "Galileo Galilei"@en ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q307 .
+
+kb:Gauss a kbc:Person ;
+    rdfs:label "Gauss"@en ;
+    kbp:have kb:Archimedes .
+
+kb:Glynn a kbc:Person ;
+    rdfs:label "Glynn"@en ;
+    kbp:accuse kb:Sayre .
+
+kb:Google a kbc:Organization ;
+    rdfs:label "Google"@en ;
+    kbp:honour kb:Rosalind_Franklin .
+
+kb:Gould a kbc:Person ;
+    rdfs:label "Gould"@en ;
+    kbp:meet kb:Darwin .
+
+kb:Halley a kbc:Person ;
+    rdfs:label "Halley"@en ;
+    kbp:tell kb:John_Conduitt .
+
+kb:Hermann_Einstein a kbc:Person ;
+    rdfs:label "Hermann Einstein"@en ;
+    kbp:move kb:Milan .
+
+kb:Hillis a kbc:Person ;
+    rdfs:label "Hillis"@en ;
+    kbp:quote kb:Feynman .
+
+kb:Hooker a kbc:Person ;
+    rdfs:label "Hooker"@en ;
+    kbp:read kb:Essay .
+
+kb:Iota_Sigma_Pi a kbc:Organization ;
+    rdfs:label "Iota Sigma Pi"@en ;
+    kbp:designate kb:Franklin .
+
+kb:Isaac_Newton a kbc:Scientist ;
+    rdfs:label "Isaac Newton"@en ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q935 .
+
+kb:Jane_Goodall a kbc:Person,
+        kbc:Scientist ;
+    rdfs:label "Jane Goodall"@en ;
+    kbp:collect kb:The_Guardian,
+        kb:The_New_York_Times ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q184746 .
+
+kb:Jean_Hanson a kbc:Person ;
+    rdfs:label "Jean Hanson"@en ;
+    kbp:become kb:FRS .
+
+kb:John_G_Simmons a kbc:Person ;
+    rdfs:label "John G. Simmons"@en ;
+    kbp:rank kb:The_Scientific_100 .
+
+kb:Joseph_Hooker a kbc:Person ;
+    rdfs:label "Joseph Hooker"@en ;
+    kbp:argue kb:Darwin .
+
+kb:Klug a kbc:Person ;
+    rdfs:label "Klug"@en ;
+    kbp:earn kb:Trinity_College .
+
+kb:Kofi_Annan a kbc:Person ;
+    rdfs:label "Kofi Annan"@en ;
+    kbp:name kb:Goodall .
+
+kb:Leakey a kbc:Person ;
+    rdfs:label "Leakey"@en ;
+    kbp:send kb:London .
+
+kb:Louis a kbc:Person ;
+    rdfs:label "Louis"@en ;
+    kbp:send kb:Goodall .
+
+kb:Maddox a kbc:Person ;
+    rdfs:label "Maddox"@en ;
+    kbp:say kb:Randall .
+
+kb:Marie_Curie a kbc:Scientist ;
+    rdfs:label "Marie Curie"@en ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q7186 .
+
+kb:New_Scientist a kbc:Organization ;
+    rdfs:label "New Scientist"@en ;
+    kbp:call kb:Newton .
+
+kb:Nicole_Kidman a kbc:Person ;
+    rdfs:label "Nicole Kidman"@en ;
+    kbp:play kb:Franklin .
+
+kb:Paul_VI a kbc:Person ;
+    rdfs:label "Paul VI"@en ;
+    kbp:quote kb:Pensées .
+
+kb:Ralph_Leighton a kbc:Person ;
+    rdfs:label "Ralph Leighton"@en ;
+    kbp:chronicle kb:Tuva_or_Bust .
+
+kb:Richard_Feynman a kbc:Scientist ;
+    rdfs:label "Richard Feynman"@en ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q39246 .
+
+kb:Robert_Oppenheimer a kbc:Person ;
+    rdfs:label "Robert Oppenheimer"@en ;
+    kbp:establish kb:the_Los_Alamos_Laboratory .
+
+kb:Rogers a kbc:Person ;
+    rdfs:label "Rogers"@en ;
+    kbp:tell kb:Neil_Armstrong .
+
+kb:Ronald_Fisher a kbc:Person ;
+    rdfs:label "Ronald Fisher"@en ;
+    kbp:incorporate kb:The_Genetical_Theory_of_Natural_Selection .
+
+kb:Rosalind a kbc:Person ;
+    rdfs:label "Rosalind"@en ;
+    kbp:volunteer kb:Irene .
+
+kb:Schwinger a kbc:Person ;
+    rdfs:label "Schwinger"@en ;
+    kbp:share kb:the_1965_Nobel_Prize_in_Physics .
+
+kb:Stephen_Hawking a kbc:Person ;
+    rdfs:label "Stephen Hawking"@en ;
+    kbp:call kb:Principia .
+
+kb:Thomas_Burnet a kbc:Person ;
+    rdfs:label "Thomas Burnet"@en ;
+    kbp:consult kb:Newton .
+
+kb:Valerie_Jane_Morris-Goodall a kbc:Person ;
+    rdfs:label "Valerie Jane Morris-Goodall"@en ;
+    kbp:bornIn kb:Mortimer_Herbert_Morris-Goodall .
+
+kb:Varenius a kbc:Person ;
+    rdfs:label "Varenius"@en ;
+    kbp:attempt kb:the_Geographia_Generalis .
+
+kb:Voltaire a kbc:Person ;
+    rdfs:label "Voltaire"@en ;
+    kbp:published kb:Essay_on_Epic_Poetry .
+
+kb:Watson a kbc:Person ;
+    rdfs:label "Watson"@en ;
+    kbp:return kb:Harvard .
+
+kb:Weill a kbc:Person ;
+    rdfs:label "Weill"@en ;
+    kbp:introduce kb:Marcel_Mathieu .
+
+kb:Will_Durant a kbc:Person ;
+    rdfs:label "Will Durant"@en ;
+    kbp:hail kb:Pensées .
+
+kb:William_Hurt a kbc:Person ;
+    rdfs:label "William Hurt"@en ;
+    kbp:dramatize kb:The_Challenger .
+
+kb:William_Whewell a kbc:Person ;
+    rdfs:label "William Whewell"@en ;
+    kbp:push kb:Darwin .
+
+kb:bicentennial rdfs:label "bicentennial"@en ;
+    kbp:celebrate kb:the_United_Kingdom .
+
+kb:the_Advanced_Photon_Source a kbc:Organization ;
+    rdfs:label "the Advanced Photon Source"@en ;
+    kbp:start kb:the_APSUO_Rosalind_Franklin_Young_Investigator_Award .
+
+kb:the_American_National_Cancer_Institute a kbc:Organization ;
+    rdfs:label "the American National Cancer Institute"@en ;
+    kbp:establish kb:the_Rosalind_E_Franklin_Award .
+
+kb:the_British_Humanist_Association a kbc:Organization ;
+    rdfs:label "the British Humanist Association"@en ;
+    kbp:add kb:the_Rosalind_Franklin_Lecture .
+
+kb:the_Gruber_Foundation a kbc:Organization ;
+    rdfs:label "the Gruber Foundation"@en ;
+    kbp:start kb:the_Rosalind_Franklin_Young_Investigator_Award .
+
+kb:the_Roman_Catholic_Church a kbc:Organization ;
+    rdfs:label "the Roman Catholic Church"@en ;
+    kbp:execute kb:Galileo .
+
+kb:the_Rosalind_Franklin_Prize_and_Tech_Day a kbc:Event ;
+    rdfs:label "the Rosalind Franklin Prize and Tech Day"@en ;
+    kbp:hold kb:London .
+
+kb:the_Rosalind_Franklin_Society a kbc:Organization ;
+    rdfs:label "the Rosalind Franklin Society"@en ;
+    kbp:establish kb:New_York .
+
+kb:the_University_of_Groningen a kbc:Organization ;
+    rdfs:label "the University of Groningen"@en ;
+    kbp:launch kb:the_Rosalind_Franklin_Fellowship .
+
+kb:Émile_Faguet a kbc:Person ;
+    rdfs:label "Émile Faguet"@en ;
+    kbp:call kb:Pascal .
+
+kb:Établissement_scolaire_français_Blaise-Pascal a kbc:Organization ;
+    rdfs:label "Établissement scolaire français Blaise-Pascal"@en ;
+    kbp:name kb:Pascal .
+
+kb:Étienne_Pascal a kbc:Person ;
+    rdfs:label "Étienne Pascal"@en ;
+    kbp:move kb:Paris .
+
+kbp:accuse a owl:ObjectProperty ;
+    rdfs:label "accuse"@en .
+
+kbp:add a owl:ObjectProperty ;
+    rdfs:label "add"@en .
+
+kbp:admit a owl:ObjectProperty ;
+    rdfs:label "admit"@en .
+
+kbp:affiliatedWith a owl:ObjectProperty ;
+    rdfs:label "affiliatedWith"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Organization ;
+    owl:equivalentProperty wdt:P108 .
+
+kbp:agree a owl:ObjectProperty ;
+    rdfs:label "agree"@en .
+
+kbp:anchor a owl:ObjectProperty ;
+    rdfs:label "anchor"@en .
+
+kbp:apply a owl:ObjectProperty ;
+    rdfs:label "apply"@en .
+
+kbp:argue a owl:ObjectProperty ;
+    rdfs:label "argue"@en .
+
+kbp:ask a owl:ObjectProperty ;
+    rdfs:label "ask"@en .
+
+kbp:assign a owl:ObjectProperty ;
+    rdfs:label "assign"@en .
+
+kbp:associate a owl:ObjectProperty ;
+    rdfs:label "associate"@en .
+
+kbp:assure a owl:ObjectProperty ;
+    rdfs:label "assure"@en .
+
+kbp:attempt a owl:ObjectProperty ;
+    rdfs:label "attempt"@en .
+
+kbp:attend a owl:ObjectProperty ;
+    rdfs:label "attend"@en .
+
+kbp:award a owl:ObjectProperty ;
+    rdfs:label "award"@en .
+
+kbp:bear a owl:ObjectProperty ;
+    rdfs:label "bear"@en .
+
+kbp:become a owl:ObjectProperty ;
+    rdfs:label "become"@en .
+
+kbp:bornIn a owl:ObjectProperty ;
+    rdfs:label "bornIn"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Location ;
+    owl:equivalentProperty wdt:P19 .
+
+kbp:buy a owl:ObjectProperty ;
+    rdfs:label "buy"@en .
+
+kbp:call a owl:ObjectProperty ;
+    rdfs:label "call"@en .
+
+kbp:celebrate a owl:ObjectProperty ;
+    rdfs:label "celebrate"@en .
+
+kbp:change a owl:ObjectProperty ;
+    rdfs:label "change"@en .
+
+kbp:chronicle a owl:ObjectProperty ;
+    rdfs:label "chronicle"@en .
+
+kbp:clash a owl:ObjectProperty ;
+    rdfs:label "clash"@en .
+
+kbp:collaborate a owl:ObjectProperty ;
+    rdfs:label "collaborate"@en .
+
+kbp:collect a owl:ObjectProperty ;
+    rdfs:label "collect"@en .
+
+kbp:commission a owl:ObjectProperty ;
+    rdfs:label "commission"@en .
+
+kbp:consult a owl:ObjectProperty ;
+    rdfs:label "consult"@en .
+
+kbp:continue a owl:ObjectProperty ;
+    rdfs:label "continue"@en .
+
+kbp:convince a owl:ObjectProperty ;
+    rdfs:label "convince"@en .
+
+kbp:correspond a owl:ObjectProperty ;
+    rdfs:label "correspond"@en .
+
+kbp:create a owl:ObjectProperty ;
+    rdfs:label "create"@en .
+
+kbp:demonstrate a owl:ObjectProperty ;
+    rdfs:label "demonstrate"@en .
+
+kbp:describe a owl:ObjectProperty ;
+    rdfs:label "describe"@en .
+
+kbp:designate a owl:ObjectProperty ;
+    rdfs:label "designate"@en .
+
+kbp:develop a owl:ObjectProperty ;
+    rdfs:label "develop"@en .
+
+kbp:diedIn a owl:ObjectProperty ;
+    rdfs:label "diedIn"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Location ;
+    owl:equivalentProperty wdt:P20 .
+
+kbp:discuss a owl:ObjectProperty ;
+    rdfs:label "discuss"@en .
+
+kbp:dramatize a owl:ObjectProperty ;
+    rdfs:label "dramatize"@en .
+
+kbp:drive a owl:ObjectProperty ;
+    rdfs:label "drive"@en .
+
+kbp:earn a owl:ObjectProperty ;
+    rdfs:label "earn"@en .
+
+kbp:educate a owl:ObjectProperty ;
+    rdfs:label "educate"@en .
+
+kbp:educated a owl:ObjectProperty ;
+    rdfs:label "educated"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Organization ;
+    owl:equivalentProperty wdt:P69 .
+
+kbp:elect a owl:ObjectProperty ;
+    rdfs:label "elect"@en .
+
+kbp:encounter a owl:ObjectProperty ;
+    rdfs:label "encounter"@en .
+
+kbp:enter a owl:ObjectProperty ;
+    rdfs:label "enter"@en .
+
+kbp:establish a owl:ObjectProperty ;
+    rdfs:label "establish"@en .
+
+kbp:execute a owl:ObjectProperty ;
+    rdfs:label "execute"@en .
+
+kbp:expand a owl:ObjectProperty ;
+    rdfs:label "expand"@en .
+
+kbp:fieldOfWork a owl:ObjectProperty ;
+    rdfs:label "fieldOfWork"@en ;
+    rdfs:domain kbc:Scientist ;
+    owl:equivalentProperty wdt:P101 .
+
+kbp:form a owl:ObjectProperty ;
+    rdfs:label "form"@en .
+
+kbp:formulate a owl:ObjectProperty ;
+    rdfs:label "formulate"@en .
+
+kbp:found a owl:ObjectProperty ;
+    rdfs:label "found"@en .
+
+kbp:give a owl:ObjectProperty ;
+    rdfs:label "give"@en .
+
+kbp:go a owl:ObjectProperty ;
+    rdfs:label "go"@en .
+
+kbp:graduate a owl:ObjectProperty ;
+    rdfs:label "graduate"@en .
+
+kbp:hail a owl:ObjectProperty ;
+    rdfs:label "hail"@en .
+
+kbp:have a owl:ObjectProperty ;
+    rdfs:label "have"@en .
+
+kbp:hear a owl:ObjectProperty ;
+    rdfs:label "hear"@en .
+
+kbp:hold a owl:ObjectProperty ;
+    rdfs:label "hold"@en .
+
+kbp:honour a owl:ObjectProperty ;
+    rdfs:label "honour"@en .
+
+kbp:impress a owl:ObjectProperty ;
+    rdfs:label "impress"@en .
+
+kbp:include a owl:ObjectProperty ;
+    rdfs:label "include"@en .
+
+kbp:incorporate a owl:ObjectProperty ;
+    rdfs:label "incorporate"@en .
+
+kbp:influence a owl:ObjectProperty ;
+    rdfs:label "influence"@en .
+
+kbp:influenced a owl:ObjectProperty ;
+    rdfs:label "influenced"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Person ;
+    owl:equivalentProperty wdt:P1542 .
+
+kbp:influencedBy a owl:ObjectProperty ;
+    rdfs:label "influencedBy"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Person ;
+    owl:equivalentProperty wdt:P737 .
+
+kbp:introduce a owl:ObjectProperty ;
+    rdfs:label "introduce"@en .
+
+kbp:invest a owl:ObjectProperty ;
+    rdfs:label "invest"@en .
+
+kbp:investigate a owl:ObjectProperty ;
+    rdfs:label "investigate"@en .
+
+kbp:invite a owl:ObjectProperty ;
+    rdfs:label "invite"@en .
+
+kbp:join a owl:ObjectProperty ;
+    rdfs:label "join"@en .
+
+kbp:kiss a owl:ObjectProperty ;
+    rdfs:label "kiss"@en .
+
+kbp:launch a owl:ObjectProperty ;
+    rdfs:label "launch"@en .
+
+kbp:leave a owl:ObjectProperty ;
+    rdfs:label "leave"@en .
+
+kbp:locatedIn a owl:ObjectProperty ;
+    rdfs:label "locatedIn"@en ;
+    rdfs:domain kbc:Organization ;
+    rdfs:range kbc:Location .
+
+kbp:look a owl:ObjectProperty ;
+    rdfs:label "look"@en .
+
+kbp:lure a owl:ObjectProperty ;
+    rdfs:label "lure"@en .
+
+kbp:meet a owl:ObjectProperty ;
+    rdfs:label "meet"@en .
+
+kbp:memberOf a owl:ObjectProperty ;
+    rdfs:label "memberOf"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Organization ;
+    owl:equivalentProperty wdt:P463 .
+
+kbp:move a owl:ObjectProperty ;
+    rdfs:label "move"@en .
+
+kbp:name a owl:ObjectProperty ;
+    rdfs:label "name"@en .
+
+kbp:nominate a owl:ObjectProperty ;
+    rdfs:label "nominate"@en .
+
+kbp:note a owl:ObjectProperty ;
+    rdfs:label "note"@en .
+
+kbp:open a owl:ObjectProperty ;
+    rdfs:label "open"@en .
+
+kbp:order a owl:ObjectProperty ;
+    rdfs:label "order"@en .
+
+kbp:perform a owl:ObjectProperty ;
+    rdfs:label "perform"@en .
+
+kbp:play a owl:ObjectProperty ;
+    rdfs:label "play"@en .
+
+kbp:plead a owl:ObjectProperty ;
+    rdfs:label "plead"@en .
+
+kbp:posit a owl:ObjectProperty ;
+    rdfs:label "posit"@en .
+
+kbp:praise a owl:ObjectProperty ;
+    rdfs:label "praise"@en .
+
+kbp:produce a owl:ObjectProperty ;
+    rdfs:label "produce"@en .
+
+kbp:provide a owl:ObjectProperty ;
+    rdfs:label "provide"@en .
+
+kbp:publish a owl:ObjectProperty ;
+    rdfs:label "publish"@en .
+
+kbp:published a owl:ObjectProperty ;
+    rdfs:label "published"@en ;
+    rdfs:domain kbc:Scientist ;
+    rdfs:range kbc:Work ;
+    owl:equivalentProperty wdt:P800 .
+
+kbp:push a owl:ObjectProperty ;
+    rdfs:label "push"@en .
+
+kbp:question a owl:ObjectProperty ;
+    rdfs:label "question"@en .
+
+kbp:quote a owl:ObjectProperty ;
+    rdfs:label "quote"@en .
+
+kbp:rank a owl:ObjectProperty ;
+    rdfs:label "rank"@en .
+
+kbp:read a owl:ObjectProperty ;
+    rdfs:label "read"@en .
+
+kbp:receive a owl:ObjectProperty ;
+    rdfs:label "receive"@en .
+
+kbp:recognise a owl:ObjectProperty ;
+    rdfs:label "recognise"@en .
+
+kbp:recognize a owl:ObjectProperty ;
+    rdfs:label "recognize"@en .
+
+kbp:reject a owl:ObjectProperty ;
+    rdfs:label "reject"@en .
+
+kbp:report a owl:ObjectProperty ;
+    rdfs:label "report"@en .
+
+kbp:request a owl:ObjectProperty ;
+    rdfs:label "request"@en .
+
+kbp:return a owl:ObjectProperty ;
+    rdfs:label "return"@en .
+
+kbp:revert a owl:ObjectProperty ;
+    rdfs:label "revert"@en .
+
+kbp:say a owl:ObjectProperty ;
+    rdfs:label "say"@en .
+
+kbp:secure a owl:ObjectProperty ;
+    rdfs:label "secure"@en .
+
+kbp:send a owl:ObjectProperty ;
+    rdfs:label "send"@en .
+
+kbp:serve a owl:ObjectProperty ;
+    rdfs:label "serve"@en .
+
+kbp:share a owl:ObjectProperty ;
+    rdfs:label "share"@en .
+
+kbp:sign a owl:ObjectProperty ;
+    rdfs:label "sign"@en .
+
+kbp:spend a owl:ObjectProperty ;
+    rdfs:label "spend"@en .
+
+kbp:start a owl:ObjectProperty ;
+    rdfs:label "start"@en .
+
+kbp:stay a owl:ObjectProperty ;
+    rdfs:label "stay"@en .
+
+kbp:support a owl:ObjectProperty ;
+    rdfs:label "support"@en .
+
+kbp:take a owl:ObjectProperty ;
+    rdfs:label "take"@en .
+
+kbp:tell a owl:ObjectProperty ;
+    rdfs:label "tell"@en .
+
+kbp:use a owl:ObjectProperty ;
+    rdfs:label "use"@en .
+
+kbp:visit a owl:ObjectProperty ;
+    rdfs:label "visit"@en .
+
+kbp:volunteer a owl:ObjectProperty ;
+    rdfs:label "volunteer"@en .
+
+kbp:warm a owl:ObjectProperty ;
+    rdfs:label "warm"@en .
+
+kbp:wonAward a owl:ObjectProperty ;
+    rdfs:label "wonAward"@en ;
+    rdfs:domain kbc:Person ;
+    rdfs:range kbc:Award ;
+    owl:equivalentProperty wdt:P166 .
+
+kbp:work a owl:ObjectProperty ;
+    rdfs:label "work"@en .
+
+kbp:write a owl:ObjectProperty ;
+    rdfs:label "write"@en .
+
+kbc:Award a owl:Class ;
+    rdfs:label "Award"@en ;
+    rdfs:subClassOf kbc:Work .
+
+kbc:Event a owl:Class ;
+    rdfs:label "Event"@en .
+
+kb:Aarau a kbc:Location ;
+    rdfs:label "Aarau"@en .
+
+kb:Adrienne_Weill a kbc:Person ;
+    rdfs:label "Adrienne Weill"@en .
+
+kb:Albuquerque a kbc:Location ;
+    rdfs:label "Albuquerque"@en .
+
+kb:Archimedes a kbc:Person ;
+    rdfs:label "Archimedes"@en .
+
+kb:Arline a kbc:Person ;
+    rdfs:label "Arline"@en .
+
+kb:Barmouth a kbc:Location ;
+    rdfs:label "Barmouth"@en .
+
+kb:Bernal a kbc:Person ;
+    rdfs:label "Bernal"@en ;
+    kbp:request kb:Lord_Rothschild ;
+    kbp:secure kb:the_Agricultural_Research_Council .
+
+kb:Bethe a kbc:Person ;
+    rdfs:label "Bethe"@en .
+
+kb:Birkbeck_College a kbc:Organization ;
+    rdfs:label "Birkbeck College"@en .
+
+kb:Brazil a kbc:Location ;
+    rdfs:label "Brazil"@en .
+
+kb:Caltech a kbc:Organization ;
+    rdfs:label "Caltech"@en .
+
+kb:Cape_Town a kbc:Location ;
+    rdfs:label "Cape Town"@en .
+
+kb:Charles_Lyell a kbc:Person ;
+    rdfs:label "Charles Lyell"@en .
+
+kb:Christ a kbc:Person ;
+    rdfs:label "Christ"@en .
+
+kb:Christianity a kbc:Organization ;
+    rdfs:label "Christianity"@en .
+
+kb:Clermont-Ferrand a kbc:Location ;
+    rdfs:label "Clermont-Ferrand"@en .
+
+kb:Columbia_University a kbc:Organization ;
+    rdfs:label "Columbia University"@en .
+
+kb:Cornell a kbc:Organization ;
+    rdfs:label "Cornell"@en .
+
+kb:De_lArt_de_persuader a kbc:Work ;
+    rdfs:label "De l'Art de persuader"@en .
+
+kb:De_lEsprit_géométrique a kbc:Organization ;
+    rdfs:label "De l'Esprit géométrique"@en .
+
+kb:Essay_on_Epic_Poetry a kbc:Work ;
+    rdfs:label "Essay on Epic Poetry"@en .
+
+kb:Evi a kbc:Person ;
+    rdfs:label "Evi"@en .
+
+kb:Experiences_nouvelles_touchant_le_vide a kbc:Work ;
+    rdfs:label "Experiences nouvelles touchant le vide"@en .
+
+kb:FRS a kbc:Organization ;
+    rdfs:label "FRS"@en .
+
+kb:Falmouth a kbc:Location ;
+    rdfs:label "Falmouth"@en .
+
+kb:Far_Rockaway_High_School a kbc:Organization ;
+    rdfs:label "Far Rockaway High School"@en .
+
+kb:Fox a kbc:Person ;
+    rdfs:label "Fox"@en .
+
+kb:Galileo a kbc:Person ;
+    rdfs:label "Galileo"@en .
+
+kb:General_Scholium a kbc:Work ;
+    rdfs:label "General Scholium"@en .
+
+kb:Harvard a kbc:Organization ;
+    rdfs:label "Harvard"@en .
+
+kb:Hypothesis_of_Light_of_1675 a kbc:Work ;
+    rdfs:label "Hypothesis of Light of 1675"@en .
+
+kb:Irene a kbc:Person ;
+    rdfs:label "Irene"@en .
+
+kb:Jacqueline a kbc:Person ;
+    rdfs:label "Jacqueline"@en ;
+    kbp:enter kb:Port-Royal ;
+    kbp:leave kb:Port-Royal ;
+    kbp:perform kb:Richelieu .
+
+kb:Jane a kbc:Work ;
+    rdfs:label "Jane"@en .
+
+kb:Joan_B_Kroc_Institute_for_Peace_Justice a kbc:Organization ;
+    rdfs:label "Joan B. Kroc Institute for Peace & Justice"@en .
+
+kb:John_Conduitt a kbc:Person ;
+    rdfs:label "John Conduitt"@en .
+
+kb:John_Herschel a kbc:Person ;
+    rdfs:label "John Herschel"@en .
+
+kb:John_Ryle a kbc:Person ;
+    rdfs:label "John Ryle"@en .
+
+kb:Leibniz a kbc:Person ;
+    rdfs:label "Leibniz"@en .
+
+kb:Letters a kbc:Work ;
+    rdfs:label "Letters"@en .
+
+kb:Long_Beach a kbc:Location ;
+    rdfs:label "Long Beach"@en .
+
+kb:Lord_Rothschild a kbc:Person ;
+    rdfs:label "Lord Rothschild"@en .
+
+kb:Lucille a kbc:Person ;
+    rdfs:label "Lucille"@en .
+
+kb:Mair_Livingstone a kbc:Person ;
+    rdfs:label "Mair Livingstone"@en .
+
+kb:Marcel_Mathieu a kbc:Person ;
+    rdfs:label "Marcel Mathieu"@en .
+
+kb:Milan a kbc:Location ;
+    rdfs:label "Milan"@en .
+
+kb:Montaigne a kbc:Person ;
+    rdfs:label "Montaigne"@en .
+
+kb:Mortimer_Herbert_Morris-Goodall a kbc:Person ;
+    rdfs:label "Mortimer Herbert Morris-Goodall"@en .
+
+kb:Murray_Gell-Mann a kbc:Person ;
+    rdfs:label "Murray Gell-Mann"@en .
+
+kb:National_Aeronautics_and_Space_Administration a kbc:Organization ;
+    rdfs:label "National Aeronautics and Space Administration"@en .
+
+kb:Nature a kbc:Organization ;
+    rdfs:label "Nature"@en .
+
+kb:Neil_Armstrong a kbc:Person ;
+    rdfs:label "Neil Armstrong"@en .
+
+kb:New_York a kbc:Location ;
+    rdfs:label "New York"@en .
+
+kb:Newnham_College a kbc:Organization ;
+    rdfs:label "Newnham College"@en .
+
+kb:On_the_Origin_of_Species a kbc:Work ;
+    rdfs:label "On the Origin of Species"@en .
+
+kb:Oppenheimer a kbc:Person ;
+    rdfs:label "Oppenheimer"@en .
+
+kb:Opticks a kbc:Work ;
+    rdfs:label "Opticks"@en .
+
+kb:Paris a kbc:Location ;
+    rdfs:label "Paris"@en .
+
+kb:Peter_Parnell a kbc:Person ;
+    rdfs:label "Peter Parnell"@en .
+
+kb:PhD a kbc:Work ;
+    rdfs:label "PhD"@en .
+
+kb:Pierre_Bourdieu a kbc:Person ;
+    rdfs:label "Pierre Bourdieu"@en .
+
+kb:Pierre_de_Fermat a kbc:Person ;
+    rdfs:label "Pierre de Fermat"@en .
+
+kb:Randall a kbc:Person ;
+    rdfs:label "Randall"@en ;
+    kbp:assure kb:Franklin .
+
+kb:Reason_for_Hope_A_Spiritual_Journey a kbc:Work ;
+    rdfs:label "Reason for Hope: A Spiritual Journey"@en .
+
+kb:Richelieu a kbc:Person ;
+    rdfs:label "Richelieu"@en .
+
+kb:Rosalind_Franklin a kbc:Person,
+        kbc:Scientist ;
+    rdfs:label "Rosalind Franklin"@en ;
+    kbp:fieldOfWork "Science"@en ;
+    owl:sameAs wd:Q7474 .
+
+kb:Sayre a kbc:Person ;
+    rdfs:label "Sayre"@en .
+
+kb:Slovenia a kbc:Location ;
+    rdfs:label "Slovenia"@en .
+
+kb:Talmud a kbc:Work ;
+    rdfs:label "Talmud"@en .
+
+kb:The_Challenger a kbc:Work ;
+    rdfs:label "The Challenger"@en .
+
+kb:The_Descent_of_Man a kbc:Work ;
+    rdfs:label "The Descent of Man"@en .
+
+kb:The_Genetical_Theory_of_Natural_Selection a kbc:Work ;
+    rdfs:label "The Genetical Theory of Natural Selection"@en .
+
+kb:The_Inner_World_of_Farm_Animals a kbc:Work ;
+    rdfs:label "The Inner World of Farm Animals"@en .
+
+kb:The_Investigation_of_the_State_of_Aether_in_Magnetic_Fields a kbc:Work ;
+    rdfs:label "The Investigation of the State of Aether in Magnetic Fields"@en .
+
+kb:The_Kings_School a kbc:Organization ;
+    rdfs:label "The King's School"@en .
+
+kb:The_New_York_Times a kbc:Organization ;
+    rdfs:label "The New York Times"@en .
+
+kb:The_Scientific_100 a kbc:Work ;
+    rdfs:label "The Scientific 100"@en .
+
+kb:Theoretical_T_Division a kbc:Organization ;
+    rdfs:label "Theoretical (T) Division"@en .
+
+kb:Tuva_or_Bust a kbc:Work ;
+    rdfs:label "Tuva or Bust!"@en .
+
+kb:UNESCO a kbc:Organization ;
+    rdfs:label "UNESCO"@en .
+
+kb:Unitarian_Church a kbc:Organization ;
+    rdfs:label "Unitarian Church"@en .
+
+kb:Uplands_School a kbc:Organization ;
+    rdfs:label "Uplands School"@en .
+
+kb:Washington a kbc:Location ;
+    rdfs:label "Washington"@en .
+
+kb:Wilkins a kbc:Person ;
+    rdfs:label "Wilkins"@en ;
+    kbp:include kb:the_DNA_Nobel_Prize ;
+    kbp:wonAward kb:the_Nobel_Prize_in_Chemistry .
+
+kb:William_P_Rogers a kbc:Person ;
+    rdfs:label "William P. Rogers"@en .
+
+kb:Woods_Hole a kbc:Organization ;
+    rdfs:label "Woods Hole"@en .
+
+kb:Zoonomia a kbc:Work ;
+    rdfs:label "Zoonomia"@en .
+
+kb:a_Nobel_Prize a kbc:Work ;
+    rdfs:label "a Nobel Prize"@en .
+
+kb:a_Nobel_Prize_in_Chemistry a kbc:Work ;
+    rdfs:label "a Nobel Prize in Chemistry"@en .
+
+kb:the_1965_Nobel_Prize_in_Physics a kbc:Work ;
+    rdfs:label "the 1965 Nobel Prize in Physics"@en .
+
+kb:the_APSUO_Rosalind_Franklin_Young_Investigator_Award a kbc:Work ;
+    rdfs:label "the APSUO Rosalind Franklin Young Investigator Award"@en .
+
+kb:the_Agricultural_Research_Council a kbc:Organization ;
+    rdfs:label "the Agricultural Research Council"@en .
+
+kb:the_California_Institute_of_Technology a kbc:Organization ;
+    rdfs:label "the California Institute of Technology"@en .
+
+kb:the_Council_of_the_Geological_Society a kbc:Organization ;
+    rdfs:label "the Council of the Geological Society"@en .
+
+kb:the_DNA_Nobel_Prize a kbc:Work ;
+    rdfs:label "the DNA Nobel Prize"@en .
+
+kb:the_Eidgenössische_Polytechnische_Schule a kbc:Organization ;
+    rdfs:label "the Eidgenössische Polytechnische Schule"@en .
+
+kb:the_European_Commission a kbc:Organization ;
+    rdfs:label "the European Commission"@en .
+
+kb:the_Geographia_Generalis a kbc:Work ;
+    rdfs:label "the Geographia Generalis"@en .
+
+kb:the_Institute_for_Advanced_Study a kbc:Organization ;
+    rdfs:label "the Institute for Advanced Study"@en .
+
+kb:the_Jewish_Society a kbc:Organization ;
+    rdfs:label "the Jewish Society"@en .
+
+kb:the_Nobel_Prize a kbc:Work ;
+    rdfs:label "the Nobel Prize"@en .
+
+kb:the_Nobel_Prize_in_Chemistry a kbc:Work ;
+    rdfs:label "the Nobel Prize in Chemistry"@en .
+
+kb:the_Presidential_Medal_of_Freedom a kbc:Work ;
+    rdfs:label "the Presidential Medal of Freedom"@en .
+
+kb:the_Presidential_Rogers_Commission a kbc:Organization ;
+    rdfs:label "the Presidential Rogers Commission"@en .
+
+kb:the_Rosalind_E_Franklin_Award a kbc:Work ;
+    rdfs:label "the Rosalind E. Franklin Award"@en .
+
+kb:the_Rosalind_Franklin_Award a kbc:Work ;
+    rdfs:label "the Rosalind Franklin Award"@en .
+
+kb:the_Rosalind_Franklin_Fellowship a kbc:Organization ;
+    rdfs:label "the Rosalind Franklin Fellowship"@en .
+
+kb:the_Rosalind_Franklin_Laboratory a kbc:Organization ;
+    rdfs:label "the Rosalind Franklin Laboratory"@en .
+
+kb:the_Rosalind_Franklin_Lecture a kbc:Work ;
+    rdfs:label "the Rosalind Franklin Lecture"@en .
+
+kb:the_Rosalind_Franklin_University_of_Medicine_and_Science a kbc:Organization ;
+    rdfs:label "the Rosalind Franklin University of Medicine and Science"@en .
+
+kb:the_Rosalind_Franklin_Young_Investigator_Award a kbc:Organization ;
+    rdfs:label "the Rosalind Franklin Young Investigator Award"@en .
+
+kb:the_Royal_Society a kbc:Organization ;
+    rdfs:label "the Royal Society"@en ;
+    kbp:establish kb:the_Rosalind_Franklin_Award .
+
+kb:the_South_Sea_Company a kbc:Organization ;
+    rdfs:label "the South Sea Company"@en .
+
+kb:the_Stephen_Hawking_Medal_for_Science_Communication a kbc:Work ;
+    rdfs:label "the Stephen Hawking Medal for Science Communication"@en .
+
+kb:the_Tchimpounga_Chimpanzee_Rehabilitation_Centre a kbc:Organization ;
+    rdfs:label "the Tchimpounga Chimpanzee Rehabilitation Centre"@en .
+
+kb:the_US_National_Institutes_of_Health a kbc:Organization ;
+    rdfs:label "the US National Institutes of Health"@en .
+
+kb:the_United_Kingdom a kbc:Location ;
+    rdfs:label "the United Kingdom"@en .
+
+kb:the_University_of_California_Berkeley a kbc:Organization ;
+    rdfs:label "the University of California, Berkeley"@en .
+
+kb:the_University_of_Minnesota a kbc:Organization ;
+    rdfs:label "the University of Minnesota"@en .
+
+wd:Q1035 rdfs:label "Charles Darwin"@en .
+
+wd:Q1290 rdfs:label "Blaise Pascal"@en .
+
+wd:Q184746 rdfs:label "Jane Goodall"@en .
+
+wd:Q307 rdfs:label "Galileo Galilei"@en .
+
+wd:Q39246 rdfs:label "Richard Feynman"@en .
+
+wd:Q7186 rdfs:label "Marie Curie"@en .
+
+wd:Q7474 rdfs:label "Rosalind Franklin"@en .
+
+wd:Q935 rdfs:label "Isaac Newton"@en .
+
+wd:Q937 rdfs:label "Albert Einstein"@en .
+
+wdt:P101 rdfs:label "field of work"@en .
+
+wdt:P108 rdfs:label "employer"@en .
+
+wdt:P1542 rdfs:label "has effect"@en .
+
+wdt:P166 rdfs:label "award received"@en .
+
+wdt:P19 rdfs:label "place of birth"@en .
+
+wdt:P20 rdfs:label "place of death"@en .
+
+wdt:P463 rdfs:label "member of"@en .
+
+wdt:P69 rdfs:label "educated at"@en .
+
+wdt:P737 rdfs:label "influenced by"@en .
+
+wdt:P800 rdfs:label "notable work"@en .
+
+kb:Essay a kbc:Work ;
+    rdfs:label "Essay"@en .
+
+kb:Goodall a kbc:Person ;
+    rdfs:label "Goodall"@en ;
+    kbp:call kb:the_European_Commission ;
+    kbp:collaborate kb:National_Aeronautics_and_Space_Administration ;
+    kbp:describe kb:Reason_for_Hope_A_Spiritual_Journey ;
+    kbp:educated kb:Uplands_School ;
+    kbp:establish kb:the_Jane_Goodall_Institute ;
+    kbp:form kb:the_Jane_Goodall_Institute ;
+    kbp:found kb:the_Tchimpounga_Chimpanzee_Rehabilitation_Centre ;
+    kbp:give kb:Joan_B_Kroc_Institute_for_Peace_Justice,
+        kb:UNESCO ;
+    kbp:published kb:The_Inner_World_of_Farm_Animals,
+        kb:the_US_National_Institutes_of_Health ;
+    kbp:tell kb:The_Guardian ;
+    kbp:wonAward kb:PhD,
+        kb:the_Presidential_Medal_of_Freedom,
+        kb:the_Stephen_Hawking_Medal_for_Science_Communication .
+
+kb:Newton a kbc:Person ;
+    rdfs:label "Newton"@en ;
+    kbp:affiliatedWith kb:the_University_of_Cambridge ;
+    kbp:demonstrate kb:Principia ;
+    kbp:educated kb:The_Kings_School,
+        kb:Trinity_College ;
+    kbp:formulate kb:Principia ;
+    kbp:give kb:Principia ;
+    kbp:invest kb:the_South_Sea_Company ;
+    kbp:move kb:London ;
+    kbp:posit kb:Hypothesis_of_Light_of_1675 ;
+    kbp:provide kb:Principia ;
+    kbp:published kb:Opticks ;
+    kbp:recognise kb:Principia ;
+    kbp:recognize kb:Christ ;
+    kbp:reject kb:General_Scholium ;
+    kbp:report kb:the_Royal_Society ;
+    kbp:return kb:the_University_of_Cambridge ;
+    kbp:start kb:Cambridge .
+
+kb:Pascal a kbc:Person ;
+    rdfs:label "Pascal"@en ;
+    kbp:agree kb:Montaigne ;
+    kbp:bornIn kb:Clermont-Ferrand ;
+    kbp:influenced kb:Pierre_Bourdieu ;
+    kbp:influencedBy kb:Pierre_de_Fermat ;
+    kbp:look kb:De_lArt_de_persuader ;
+    kbp:produce kb:Experiences_nouvelles_touchant_le_vide ;
+    kbp:sign kb:Port-Royal ;
+    kbp:use kb:De_lEsprit_géométrique,
+        kb:Pensées .
+
+kb:The_Guardian a kbc:Organization ;
+    rdfs:label "The Guardian"@en .
+
+kb:Trinity_College a kbc:Organization ;
+    rdfs:label "Trinity College"@en .
+
+kb:the_Jane_Goodall_Institute a kbc:Organization ;
+    rdfs:label "the Jane Goodall Institute"@en .
+
+kb:the_Los_Alamos_Laboratory a kbc:Organization ;
+    rdfs:label "the Los Alamos Laboratory"@en .
+
+kb:the_University_of_Cambridge a kbc:Organization ;
+    rdfs:label "the University of Cambridge"@en .
+
+kb:Cambridge a kbc:Location,
+        kbc:Organization ;
+    rdfs:label "Cambridge"@en .
+
+kb:Feynman a kbc:Person ;
+    rdfs:label "Feynman"@en ;
+    kbp:affiliatedWith kb:the_Los_Alamos_Laboratory ;
+    kbp:apply kb:Columbia_University ;
+    kbp:assign kb:Theoretical_T_Division ;
+    kbp:bornIn kb:Lucille ;
+    kbp:buy kb:Long_Beach ;
+    kbp:clash kb:William_P_Rogers ;
+    kbp:develop kb:Murray_Gell-Mann ;
+    kbp:drive kb:Albuquerque ;
+    kbp:educated kb:Far_Rockaway_High_School ;
+    kbp:encounter kb:Talmud ;
+    kbp:go kb:Washington ;
+    kbp:impress kb:Brazil,
+        kb:Oppenheimer ;
+    kbp:investigate kb:Caltech ;
+    kbp:kiss kb:Arline ;
+    kbp:play kb:the_Presidential_Rogers_Commission ;
+    kbp:return kb:Cornell .
+
+kb:Franklin a kbc:Person ;
+    rdfs:label "Franklin"@en ;
+    kbp:ask kb:Adrienne_Weill ;
+    kbp:consult kb:Mair_Livingstone ;
+    kbp:educated kb:Newnham_College ;
+    kbp:leave kb:Birkbeck_College ;
+    kbp:memberOf kb:the_Jewish_Society ;
+    kbp:nominate kb:a_Nobel_Prize ;
+    kbp:published kb:Nature ;
+    kbp:share kb:the_Nobel_Prize ;
+    kbp:stay kb:Cambridge ;
+    kbp:support kb:John_Ryle ;
+    kbp:take kb:Bernal ;
+    kbp:tell kb:Evi ;
+    kbp:visit kb:Slovenia,
+        kb:Woods_Hole,
+        kb:the_University_of_California_Berkeley ;
+    kbp:wonAward kb:a_Nobel_Prize_in_Chemistry .
+
+kb:Pensées a kbc:Work ;
+    rdfs:label "Pensées"@en .
+
+kb:Port-Royal a kbc:Organization ;
+    rdfs:label "Port-Royal"@en .
+
+kb:Darwin a kbc:Person ;
+    rdfs:label "Darwin"@en ;
+    kbp:become kb:Fox ;
+    kbp:expand kb:Essay ;
+    kbp:hear kb:Cape_Town ;
+    kbp:meet kb:John_Herschel ;
+    kbp:memberOf kb:the_Council_of_the_Geological_Society ;
+    kbp:move kb:London ;
+    kbp:note kb:The_Descent_of_Man ;
+    kbp:published kb:Charles_Lyell,
+        kb:On_the_Origin_of_Species ;
+    kbp:revert kb:Christianity ;
+    kbp:spend kb:Barmouth .
+
+kb:London a kbc:Location ;
+    rdfs:label "London"@en .
+
+kb:Principia a kbc:Work ;
+    rdfs:label "Principia"@en .
+
+kbc:Scientist a owl:Class ;
+    rdfs:label "Scientist"@en ;
+    rdfs:subClassOf kbc:Person .
+
+kbc:Location a owl:Class ;
+    rdfs:label "Location"@en .
+
+kbc:Work a owl:Class ;
+    rdfs:label "Work"@en .
+
+kbc:Organization a owl:Class ;
+    rdfs:label "Organization"@en .
+
+kbc:Person a owl:Class ;
+    rdfs:label "Person"@en .
+

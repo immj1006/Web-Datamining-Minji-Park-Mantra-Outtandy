@@ -1,0 +1,11 @@
+private_predicate,wikidata_property,wikidata_label,alignment_type
+kbp:wonAward,wdt:P166,award received,owl:equivalentProperty
+kbp:bornIn,wdt:P19,place of birth,owl:equivalentProperty
+kbp:diedIn,wdt:P20,place of death,owl:equivalentProperty
+kbp:affiliatedWith,wdt:P108,employer,owl:equivalentProperty
+kbp:educated,wdt:P69,educated at,owl:equivalentProperty
+kbp:fieldOfWork,wdt:P101,field of work,owl:equivalentProperty
+kbp:published,wdt:P800,notable work,owl:equivalentProperty
+kbp:influencedBy,wdt:P737,influenced by,owl:equivalentProperty
+kbp:influenced,wdt:P1542,has effect,owl:equivalentProperty
+kbp:memberOf,wdt:P463,member of,owl:equivalentProperty

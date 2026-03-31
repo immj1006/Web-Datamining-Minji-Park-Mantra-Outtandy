@@ -1,0 +1,10 @@
+Question,Baseline_answer,RAG_rows,RAG_correct,Self_repaired,Error
+Which scientists are in the knowledge base?,"I do not have access to external knowledge sources or the ability to search the knowledge base, so I cannot answer this question.",20,Yes,No,
+What is the field of work of Isaac Newton?,"Sure. Here's a summary of Isaac Newton's field of work:
+
+Isaac Newton was a renowned mathematician, physicist, and astronomer who made significant con",10,Yes,No,
+Which university was Albert Einstein affiliated with?,Albert Einstein was affiliated with the University of Zurich in Switzerland. He was a professor there from 1932 to 1955.,10,Yes,No,
+What awards did Marie Curie receive?,"Marie Curie received numerous awards and recognitions throughout her career, including:
+
+- Nobel Prize in Physics in 1911 for her discovery of radioac",10,Yes,No,
+Which scientists were born in England?,"I cannot provide a list of scientists born in England, as I am unable to access real-time or specific birth records.",0,No,No,

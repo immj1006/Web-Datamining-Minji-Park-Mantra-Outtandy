@@ -1,0 +1,10 @@
+private_entity,external_uri,wikidata_qid,wikidata_label,confidence,status
+kb:Blaise_Pascal,http://www.wikidata.org/entity/Q1290,Q1290,Blaise Pascal,0.99,aligned
+kb:Isaac_Newton,http://www.wikidata.org/entity/Q935,Q935,Isaac Newton,0.99,aligned
+kb:Richard_Feynman,http://www.wikidata.org/entity/Q39246,Q39246,Richard Feynman,0.99,aligned
+kb:Jane_Goodall,http://www.wikidata.org/entity/Q184746,Q184746,Jane Goodall,0.99,aligned
+kb:Rosalind_Franklin,http://www.wikidata.org/entity/Q7474,Q7474,Rosalind Franklin,0.99,aligned
+kb:Charles_Darwin,http://www.wikidata.org/entity/Q1035,Q1035,Charles Darwin,0.99,aligned
+kb:Albert_Einstein,http://www.wikidata.org/entity/Q937,Q937,Albert Einstein,0.99,aligned
+kb:Marie_Curie,http://www.wikidata.org/entity/Q7186,Q7186,Marie Curie,0.99,aligned
+kb:Galileo_Galilei,http://www.wikidata.org/entity/Q307,Q307,Galileo Galilei,0.99,aligned
